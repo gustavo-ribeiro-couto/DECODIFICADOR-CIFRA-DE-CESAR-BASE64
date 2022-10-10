@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Aleo', serif;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Aleo', serif, 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 7em;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(0, 0, 0, 0.555));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+#msg1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border: white solid;
+}
+
+.radioType {
+    display: inline;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#msg2 {
+    margin-top: 30px;
+}
+
+label {
+    font-size: 22px;
+    font-family: 'Aleo', serif;
+}
+
+.footer {
+    position: initial;
+    text-align: center;
+    bottom: 0;
+    padding: 10px;
+    font-size: 13px;
+    background: black;
+    color: white;
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 480px) {
+    *, h1, body, .radioType{
+        width: auto;
+    }
+
+    .woman {
+        position: static;
+    }
+
+    .footer {
+        width: auto;
+    }
+}
